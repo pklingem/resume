@@ -22,6 +22,7 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/resume.css">
   
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -35,10 +36,26 @@
 
   <div id="container">
     <header>
-
+      <h1 class="align-center">Patrick G. Klingemann</h1>
+      <div class="left">
+        Home address:
+        <address id="home_address">
+          527 Castle Hall Rd.
+          <br />
+          Mount Pleasant, SC 29464
+        </address>
+      </div>
+      <div class="right align-right">
+        Mobile: (843)606-0808
+        <br />
+        <a href="mailto:patrick.klingemann@gmail.com">patrick.klingemann@gmail.com</a>
+      </div>
+      <div class="clear">
+      </div>
     </header>
-    <div id="main" role="main">
 
+    <div id="main" role="main">
+      <%= yield %>
     </div>
     <footer>
 
