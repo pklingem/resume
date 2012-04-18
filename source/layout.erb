@@ -50,7 +50,11 @@
 
   <!-- scripts concatenated and minified via build script -->
   <script defer src="js/plugins.js"></script>
-  <script defer src="js/script.js"></script>
+  <script defer src="js/libs/mustache.min.js"></script>
+  <script defer id="experience_unit_template" type="text/html">
+    <%= partial 'experience_unit' %>
+  </script>
+  <script defer src="js/resume.js"></script>
   <!-- end scripts -->
 
 

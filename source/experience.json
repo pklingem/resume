@@ -1,0 +1,53 @@
+{
+    "experience": [
+        {
+            "experience_unit": {
+                "employer": "Medical University of South Carolina (MUSC)",
+                "division": "Office of Biomedical Informatics Services",
+                "location": "Charleston, SC",
+                "title": "Senior Systems Analyst",
+                "period": "February 2009 - January 2012",
+                "projects": [
+                    {
+                        "project": {
+                            "title": "SPARK",
+                            "description": "Research Services Management Application, <em>Lead Developer</em>"
+                        }
+                    },
+                    {
+                        "project": {
+                            "title": "SCResearch.org",
+                            "description": "South Carolina Research Studies Directory, <em>Lead Developer</em>"
+                        }
+                    }
+                ],
+                "highlights": [
+                    "Design, develop, test and maintain Ruby on Rails applications with complex business logic in an Agile software environment",
+                    "Design development team infrastructure, including source control (Git), release management and deployment (Capistrano), bug tracking (Redmine) and Agile Project Management (Pivotal Tracker)",
+                    "Mentor junior developers, develop relationships with clients and collaborate with other institutions"
+                ]
+            }
+        }, {
+            "experience_unit": {
+                "employer": "SPAWAR Systems Center Charleston",
+                "division": "",
+                "location": "Charleston, SC",
+                "title": "Computer Engineer",
+                "period": "June 2005 - February 2009",
+                "projects": [
+                    {
+                        "project": {
+                            "title": "DVDT",
+                            "description": "Modeling and Simulation Documentation Web Tool, August 2006 - February 2009, <em>Lead Developer</em>"
+                        }
+                    }
+                ],
+                "highlights": [
+                  "Generate use cases, choose architecture, and design application based on client requirements",
+                  "Design and develop database (MySQL), user interface (HTML, CSS, AJAX), and back-end (Rails)",
+                  "Deploy and maintain source control server (Subversion & Trac), development and test environments (databases, web servers, Ruby on Rails environments)"
+                ]
+            }
+        }
+    ]
+}
