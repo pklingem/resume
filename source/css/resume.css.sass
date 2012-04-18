@@ -21,11 +21,7 @@
 body
   background: #f1f1f1
   color: #444
-  position: fixed
-  left: 1em
-  right: 1em
-  top: 1em
-  bottom: 1em
+  padding: 1em
   font-family: 'Average', serif
   //font-family: 'Lusitana', serif
   //font-family: 'Enriqueta', serif
@@ -36,8 +32,18 @@ body
 #container
   max-width: 800px
   min-width: 220px
-  margin: auto
+  margin: 1em auto
   border: 1px solid #ccc
+  background: white
 
 .content
   padding: 0.5em 1.5em 0.5em 1.5em
+
+ul#experience
+  padding: 0
+  li.experience-unit
+    list-style-type: none
+    h4
+      margin: 0
+    ul.highlights li
+      list-style-type: disc
