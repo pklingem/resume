@@ -1,0 +1,29 @@
+<li class="experience-unit">
+  <div class="left">
+    <div class="employer"><%= employer %></div>
+    <div class="division"><%= division %></div>
+    <div class="location"><%= location %></div>
+  </div>
+
+  <div class="right">
+    <div class="title"><%= title %></div>
+    <div class="period"><%= period %></div>
+  </div>
+
+  <div class="clear"></div>
+  <br />
+
+  <h4>Projects</h4>
+  <ul class="projects">
+    <% projects.each do |project| %>
+      <li class="project"><strong class="title"><%= project[:title] %></strong> - <span class="description"><%= project[:description] %></span></li>
+    <% end %>
+  </ul>
+
+  <h4>Highlights</h4>
+  <ul class="highlights">
+    <% highlights.each do |highlight| %>
+      <li class="highlight"><%= highlight %></li>
+    <% end %>
+  </ul>
+</li>
