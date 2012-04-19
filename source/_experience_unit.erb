@@ -1,35 +1,43 @@
 {{#experience}}
   {{#experience_unit}}
   <li class="experience-unit">
-    <div class="left">
-      <div class="employer">{{employer}}</div>
-      <div class="division">{{division}}</div>
-      <div class="location">{{location}}</div>
+    <div class="heading">
+      <div class="left">
+        <div class="employer">{{employer}}</div>
+        <div class="division">{{division}}</div>
+        <div class="location">{{location}}</div>
+      </div>
+
+      <div class="right">
+        <div class="title">{{title}}</div>
+        <div class="period">{{period}}</div>
+      </div>
+
+      <div class="clear"></div>
     </div>
 
-    <div class="right">
-      <div class="title">{{title}}</div>
-      <div class="period">{{period}}</div>
-    </div>
-
-    <div class="clear"></div>
     <br />
 
     <h4>Projects</h4>
     <ul class="projects">
       {{#projects}}
         {{#project}}
-          <li class="project"><strong class="title">{{title}}</strong> - <span class="description">{{{description}}}</span></li>
+          <li class="project">
+            <div class="heading">
+              <div class="left"><strong class="title">{{title}}</strong> - <span class="description">{{{description}}}</span></div>
+              <div class="right">{{period}}</div>
+              <div class="clear"></div>
+            </div>
+            <ul class="highlights">
+              {{#highlights}}
+                <li class="highlight">{{.}}</li>
+              {{/highlights}}
+            </ul>
+          </li>
         {{/project}}
       {{/projects}}
     </ul>
 
-    <h4>Highlights</h4>
-    <ul class="highlights">
-      {{#highlights}}
-        <li class="highlight">{{.}}</li>
-      {{/highlights}}
-    </ul>
   </li>
   {{/experience_unit}}
 {{/experience}}
