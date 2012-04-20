@@ -10,7 +10,9 @@
 
       <div class="right">
         <div class="title">{{title}}</div>
-        <span>{{start_month}}</span> - <span>{{end_month}}</span>
+        <span class="start-month">{{start_month}}</span>
+        -
+        <span class="end-month">{{end_month}}</span>
       </div>
 
       <div class="clear"></div>
@@ -24,9 +26,17 @@
         {{#project}}
           <li class="project">
             <div class="heading">
-              <div class="left"><strong class="title">{{title}}</strong> - <span class="description">{{{description}}}</span></div>
+              <div class="title-description-container left">
+                <strong class="title">{{title}}</strong>
+                -
+                <span class="description">{{{description}}}</span>
+              </div>
               <div class="right">
-                <span>{{start_month}}</span> - <span>{{end_month}}</span>
+                <span class="role">{{role}}</span>
+                <br />
+                <span class="start-month">{{start_month}}</span>
+                -
+                <span class="end-month">{{end_month}}</span>
               </div>
               <div class="clear"></div>
             </div>

@@ -12,7 +12,8 @@
                     {
                         "project": {
                             "title": "SPARK",
-                            "description": "Research Services Management Application, <em>Lead Developer</em>",
+                            "description": "Research Services Management Application",
+                            "role": "Architect/Lead Developer",
                             "start_month": "February 2009",
                             "end_month": "January 2011",
                             "highlights": [
@@ -25,9 +26,10 @@
                     {
                         "project": {
                             "title": "SCResearch.org",
+                            "role": "Architect/Lead Developer",
                             "start_month": "June 2010",
                             "end_month": "December 2010",
-                            "description": "South Carolina Research Studies Directory, <em>Lead Developer</em>"
+                            "description": "South Carolina Research Studies Directory"
                         }
                     }
                 ]
@@ -44,7 +46,8 @@
                     {
                         "project": {
                             "title": "DVDT",
-                            "description": "Modeling and Simulation Documentation Web Tool, <em>Lead Developer</em>",
+                            "description": "Modeling and Simulation Documentation Web Tool",
+                            "role": "Architect/Lead Developer",
                             "start_month": "August 2006",
                             "end_month": "February 2009",
                             "highlights": [
@@ -58,6 +61,7 @@
                             "title": "EDP",
                             "description": "Employee Appraisal Web Application",
                             "division": "Workforce Solutions",
+                            "role": "Maintainer/Developer",
                             "start_month": "June 2005",
                             "end_month": "September 2006",
                             "role": "Developer/Maintainer",
@@ -82,6 +86,7 @@
                         "project": {
                             "title": "MIP",
                             "description": "FEMA – Multi-Hazard Flood Map Modernization",
+                            "role": "Developer",
                             "start_month": "October 2004",
                             "end_month": "June 2005",
                             "highlights": [
@@ -94,9 +99,9 @@
                             "title": "BPS",
                             "description": "Military Sealift Command, Budget Preparation System",
                             "division": "Business Consulting Services",
+                            "role": "Developer",
                             "start_month": "June 2004",
                             "end_month": "October 2004",
-                            "role": "Developer/Maintainer",
                             "highlights": [
                               "Redesigned ship maintenance module with PL/SQL stored procedures to improve performance",
                               "Supported all phases of the development cycle including requirements gathering, design, development, testing and defect resolution",
