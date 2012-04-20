@@ -6,25 +6,28 @@
                 "division": "Office of Biomedical Informatics Services",
                 "location": "Charleston, SC",
                 "title": "Senior Systems Analyst",
-                "period": "February 2009 - January 2012",
+                "start_month": "February 2009",
+                "end_month": "January 2012",
                 "projects": [
                     {
                         "project": {
                             "title": "SPARK",
                             "description": "Research Services Management Application, <em>Lead Developer</em>",
+                            "start_month": "February 2009",
+                            "end_month": "January 2011",
                             "highlights": [
                                 "Design, develop, test and maintain Ruby on Rails applications with complex business logic in an Agile software environment",
                                 "Design development team infrastructure, including source control (Git), release management and deployment (Capistrano), bug tracking (Redmine) and Agile Project Management (Pivotal Tracker)",
                                 "Mentor junior developers, develop relationships with clients and collaborate with other institutions"
-                            ],
-                            "period": "February 2009 - January 2011"
+                            ]
                         }
                     },
                     {
                         "project": {
                             "title": "SCResearch.org",
-                            "description": "South Carolina Research Studies Directory, <em>Lead Developer</em>",
-                            "period": "June 2010 - December 2010"
+                            "start_month": "June 2010",
+                            "end_month": "December 2010",
+                            "description": "South Carolina Research Studies Directory, <em>Lead Developer</em>"
                         }
                     }
                 ]
@@ -35,13 +38,15 @@
                 "division": "",
                 "location": "Charleston, SC",
                 "title": "Computer Engineer",
-                "period": "September 2006 - February 2009",
+                "start_month": "September 2006",
+                "end_month": "February 2009",
                 "projects": [
                     {
                         "project": {
                             "title": "DVDT",
                             "description": "Modeling and Simulation Documentation Web Tool, <em>Lead Developer</em>",
-                            "period": "August 2006 - February 2009",
+                            "start_month": "August 2006",
+                            "end_month": "February 2009",
                             "highlights": [
                               "Generate use cases, choose architecture, and design application based on client requirements",
                               "Design and develop database (MySQL), user interface (HTML, CSS, AJAX), and back-end (Rails)",
@@ -53,7 +58,8 @@
                             "title": "EDP",
                             "description": "Employee Appraisal Web Application",
                             "division": "Workforce Solutions",
-                            "period": "June 2005 – September 2006",
+                            "start_month": "June 2005",
+                            "end_month": "September 2006",
                             "role": "Developer/Maintainer",
                             "highlights": [
                               "Design, develop, test and deploy upgrades including front-end and database updates (JSP, Struts, MySQL)",
@@ -69,13 +75,15 @@
                 "division": "Business Consulting Services",
                 "location": "Fairfax, VA",
                 "title": "Application Developer",
-                "period": "June 2004 - June 2005",
+                "start_month": "June 2004",
+                "end_month": "June 2005",
                 "projects": [
                     {
                         "project": {
                             "title": "MIP",
                             "description": "FEMA – Multi-Hazard Flood Map Modernization",
-                            "period": "October 2004 – June 2005",
+                            "start_month": "October 2004",
+                            "end_month": "June 2005",
                             "highlights": [
                               "Designed and implemented a Portlet (Struts, Hibernate) to allow FEMA users to organize flood map project funding throughout the country for the third release",
                               "Implemented Struts screens for various components including flood map project creation, management and contracting"
@@ -86,7 +94,8 @@
                             "title": "BPS",
                             "description": "Military Sealift Command, Budget Preparation System",
                             "division": "Business Consulting Services",
-                            "period": "June 2004 – October 2004",
+                            "start_month": "June 2004",
+                            "end_month": "October 2004",
                             "role": "Developer/Maintainer",
                             "highlights": [
                               "Redesigned ship maintenance module with PL/SQL stored procedures to improve performance",
@@ -103,13 +112,15 @@
                 "division": "Bradley Department of Computer Engineering - Bioimaging Systems Laboratory",
                 "location": "Blacksburg, VA",
                 "title": "Undergraduate Researcher",
-                "period": "January 2004 - May 2004",
+                "start_month": "January 2004",
+                "end_month": "May 2004",
                 "projects": [
                     {
                         "project": {
                             "title": "Undergraduate Research",
                             "description": "Image reconstruction algorithms",
-                            "period": "January 2004 – May 2004",
+                            "start_month": "January 2004",
+                            "end_month": "May 2004",
                             "highlights": [
                               "Implemented distance transform, medial axis transform algorithms in C++ for 3D shapes",
                               "Applied algorithms to brain tumor modeling for the gamma knife cancer treatment procedure"
