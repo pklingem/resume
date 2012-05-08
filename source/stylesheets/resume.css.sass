@@ -67,16 +67,42 @@ div.heading
     width: 30%
     text-align: right
 
-ul.libraries
-  margin-left: 5px
-  width: 250px
-  height: 100px
-  -webkit-column-count : 2
-  -khtml-column-count : 2
-  -moz-column-count : 2
-  -ms-column-count : 2
-  -o-column-count : 2
-  column-count : 2
+ul#languages
+  margin: 0
+  padding-left: 1em
 
-  li
-    list-style: disc inside
+  li.language
+    padding: 1em
+    float: left
+    display: block
+    list-style-type: none
+
+    h4
+      text-decoration: underline
+
+    h4, h5
+      margin: 0
+
+    h5
+      margin-top: 1em
+
+  ul.frameworks
+    padding-left: 1em
+    li.framework
+      list-style: disc inside
+      float: none
+
+  ul.libraries
+    padding-left: 1em
+    width: 23em
+    height: 225px
+    -webkit-column-count : 2
+    -khtml-column-count : 2
+    -moz-column-count : 2
+    -ms-column-count : 2
+    -o-column-count : 2
+    column-count : 2
+
+    li.library
+      list-style: disc inside
+      float: none
