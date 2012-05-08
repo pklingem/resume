@@ -2,12 +2,46 @@
     "experience": [
         {
             "experience_unit": {
+                "employer": "Jack Russell Software Company",
+                "division": "CareKinesis, Inc.",
+                "location": "Charleston, SC",
+                "title": "Senior Programmer/Analyst",
+                "start_month": "January 2011",
+                "end_month": "Present",
+                "projects": [
+                    {
+                        "project": {
+                            "title": "EireneRx",
+                            "description": "Medication Management and ePrescribing for the Elderly",
+                            "client": "CareKinesis, Inc.",
+                            "role": "Senior Programmer/Analyst",
+                            "start_month": "January 2011",
+                            "end_month": "Present",
+                            "highlights": [
+                            ]
+                        }
+                    }, {
+                        "project": {
+                            "title": "CareTransitions",
+                            "description": "Medication Management and ePrescribing for the Elderly",
+                            "client": "Genesis HealthCare",
+                            "role": "Lead Developer/Maintainter",
+                            "start_month": "December 2011",
+                            "end_month": "Present",
+                            "highlights": [
+                            ]
+                        }
+                    }
+                ]
+            }
+        }, {
+            "experience_unit": {
                 "employer": "Medical University of South Carolina (MUSC)",
                 "division": "Office of Biomedical Informatics Services",
                 "location": "Charleston, SC",
                 "title": "Senior Systems Analyst",
                 "start_month": "February 2009",
-                "end_month": "January 2012",
+                "end_month": "January 2011",
                 "projects": [
                     {
                         "project": {
@@ -31,6 +65,15 @@
                             "role": "Architect/Lead Developer",
                             "start_month": "June 2010",
                             "end_month": "December 2010"
+                        }
+                    },
+                    {
+                        "project": {
+                            "title": "Research Toolkit",
+                            "description": "MUSC Research Navigation Guide",
+                            "role": "Architect/Lead Developer",
+                            "start_month": "January 2010",
+                            "end_month": "June 2010"
                         }
                     }
                 ]
