@@ -1,0 +1,205 @@
+{
+    "languages": [
+        {
+            "language": {
+                "name": "Ruby",
+                "versions": "MRI (v1.8.5 - v1.9.3)",
+                "frameworks": [
+                    {
+                        "framework": {
+                            "name": "Ruby on Rails",
+                            "versions": "1.2.3 - 3.2.3"
+                        }
+                    },
+                    {
+                        "framework": {
+                            "name": "Sinatra"
+                        }
+                    }
+                ],
+                "libraries": [
+                    {
+                        "library": {
+                            "name": "active_scaffold"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "rake"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "mysql, mysql2"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "haml"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "sass"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "mustache"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "will_paginate"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "rabl"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "barista"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "workflow"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "state_machine"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "devise"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "cancan"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "acts_as_audited"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "rest-client"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "active_record"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "couchrest_model"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "sequel"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "json"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "language": {
+                "name": "JavaScript",
+                "frameworks": [
+                    {
+                        "framework": {
+                            "name": "Ember.js (Sproutcore 2.0)",
+                            "versions": ""
+                        }
+                    },
+                    {
+                        "framework": {
+                            "name": "Backbone.js"
+                        }
+                    }
+                ],
+                "libraries": [
+                    {
+                        "library": {
+                            "name": "jQuery"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "Underscore.js"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "mustache.js"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "sugar.js"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "Chosen"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "jQuery UI"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "language": {
+                "name": "CoffeeScript"
+            }
+        },
+        {
+            "language": {
+                "name": "C++"
+            }
+        },
+        {
+            "language": {
+                "name": "Java"
+            }
+        },
+        {
+            "language": {
+                "name": "C"
+            }
+        },
+        {
+            "language": {
+                "name": "Assembly"
+            }
+        },
+        {
+            "language": {
+                "name": "VHDL"
+            }
+        },
+        {
+            "language": {
+                "name": "Matlab"
+            }
+        }
+    ]
+}

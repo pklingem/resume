@@ -1,0 +1,27 @@
+{{#languages}}
+  <li class="language">
+    {{#language}}
+      <h4>{{name}}</h4>
+      <h5>Frameworks</h5>
+      <ul class="frameworks">
+        {{#frameworks}}
+          <li class="framework">
+            {{#framework}}
+              <h6>{{name}}</h6>
+            {{/framework}}
+          </li>
+        {{/frameworks}}
+      </ul>
+      <h5>Libraries</h5>
+      <ul class="libraries">
+        {{#libraries}}
+          <li class="library">
+            {{#library}}
+              <h6>{{name}}</h6>
+            {{/library}}
+          </li>
+        {{/libraries}}
+      </ul>
+    {{/language}}
+  </li>
+{{/languages}}
