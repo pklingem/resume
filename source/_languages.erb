@@ -2,16 +2,19 @@
   <li class="language">
     {{#language}}
       <h4>{{name}}</h4>
-      <h5>Frameworks</h5>
-      <ul class="frameworks">
-        {{#frameworks}}
-          <li class="framework">
-            {{#framework}}
-              {{name}}
-            {{/framework}}
-          </li>
-        {{/frameworks}}
-      </ul>
+      {{#hasFrameworks}}
+        <h5>Frameworks</h5>
+        <ul class="frameworks">
+          {{#frameworks}}
+            <li class="framework">
+              {{#framework}}
+                {{name}}
+              {{/framework}}
+            </li>
+          {{/frameworks}}
+        </ul>
+      {{/hasFrameworks}}
+      {{#hasLibraries}}
       <h5>Libraries</h5>
       <ul class="libraries">
         {{#libraries}}
@@ -22,6 +25,7 @@
           </li>
         {{/libraries}}
       </ul>
+      {{/hasLibraries}}
     {{/language}}
   </li>
 {{/languages}}
