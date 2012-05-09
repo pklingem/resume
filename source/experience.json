@@ -18,17 +18,26 @@
                             "start_month": "January 2011",
                             "end_month": "Present",
                             "highlights": [
+                              "Design, develop, test integral modules in a critical patient care application",
+                              "Responsible for various core Rails application modules",
+                              "Design, develop, test back office processes in Ruby",
+                              "Architect browser based applications in Ember.js",
+                              "Interface with clients for requirements gathering and design"
                             ]
                         }
                     }, {
                         "project": {
                             "title": "CareTransitions",
-                            "description": "Medication Management and ePrescribing for the Elderly",
+                            "description": "Patient Care Transition Management",
                             "client": "Genesis HealthCare",
                             "role": "Lead Developer/Maintainter",
                             "start_month": "December 2011",
                             "end_month": "Present",
                             "highlights": [
+                              "Responsible for all aspects of application lifecycle for a criticla patient care application",
+                              "Design, develop, test new application modules in Rails",
+                              "Refactor, update and maintain existing codebase",
+                              "Engineer and implement release management procedures"
                             ]
                         }
                     }
@@ -52,7 +61,7 @@
                             "start_month": "February 2009",
                             "end_month": "January 2011",
                             "highlights": [
-                                "Design, develop, test and maintain Ruby on Rails applications with complex business logic in an Agile software environment",
+                                "Design, develop, test and maintain Rails applications with complex business logic in an Agile software environment",
                                 "Design development team infrastructure, including source control (Git), release management and deployment (Capistrano), bug tracking (Redmine) and Agile Project Management (Pivotal Tracker)",
                                 "Mentor junior developers, develop relationships with clients and collaborate with other institutions"
                             ]
