@@ -20,6 +20,31 @@
                 "libraries": [
                     {
                         "library": {
+                            "name": "active_record"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "state_machine"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "devise"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "haml"
+                        }
+                    },
+                    {
+                        "library": {
+                            "name": "sass"
+                        }
+                    },
+                    {
+                        "library": {
                             "name": "active_scaffold"
                         }
                     },
@@ -31,16 +56,6 @@
                     {
                         "library": {
                             "name": "mysql, mysql2"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "haml"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "sass"
                         }
                     },
                     {
@@ -70,16 +85,6 @@
                     },
                     {
                         "library": {
-                            "name": "state_machine"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "devise"
-                        }
-                    },
-                    {
-                        "library": {
                             "name": "cancan"
                         }
                     },
@@ -91,11 +96,6 @@
                     {
                         "library": {
                             "name": "rest-client"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "active_record"
                         }
                     },
                     {
