@@ -1,8 +1,8 @@
 $(document).ready ->
-  $.getJSON '/experience.json', (data) ->
+  $.getJSON 'experience.json', (data) ->
     $('#experience').html( Mustache.to_html($('#experience_template').html(), data) )
 
-  $.getJSON '/languages.json', (data) ->
+  $.getJSON 'languages.json', (data) ->
     data.hasLibraries = ->
       if @libraries then _.size(@libraries) else false
     data.hasFrameworks = ->
