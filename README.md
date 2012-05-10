@@ -1,5 +1,14 @@
-# Patrick G. Klingemann's Resume
+# Resume
 
-1.  bundle
-2.  middleman server
-3.  open http://localhost:4567
+## Development
+
+1.  git clone git@github.com:pklingem/resume
+2.  cd resume
+3.  gem install bundler
+4.  bundle
+5.  middleman server
+6.  open http://localhost:4567
+
+## Generate your static resume
+
+middleman build
