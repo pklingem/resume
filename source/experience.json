@@ -180,7 +180,7 @@
                             "start_month": "January 2004",
                             "end_month": "May 2004",
                             "highlights": [
-                              "Implemented distance transform, medial axis transform algorithms in C++ for 3D shapes",
+                              "Implemented distance transform, medial axis transform algorithms in C++ for 3D objects",
                               "Applied algorithms to brain tumor modeling for the gamma knife cancer treatment procedure"
                             ]
                         }

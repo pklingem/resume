@@ -4,114 +4,102 @@
             "language": {
                 "name": "Ruby",
                 "versions": "MRI (v1.8.5 - v1.9.3)",
-                "frameworks": [
+                "categories": [
                     {
-                        "framework": {
-                            "name": "Ruby on Rails",
-                            "versions": "1.2.3 - 3.2.3"
-                        }
+                        "name": "Frameworks",
+                        "libraries": [
+                            {
+                                "name": "Rails",
+                                "versions": "1.2.3 - 3.2.3"
+                            },
+                            {
+                                "name": "Sinatra"
+                            },
+                            {
+                                "name": "Middleman"
+                            }
+                        ]
                     },
                     {
-                        "framework": {
-                            "name": "Sinatra"
-                        }
-                    }
-                ],
-                "libraries": [
-                    {
-                        "library": {
-                            "name": "active_record"
-                        }
+                        "name": "Testing",
+                        "libraries": [
+                            {
+                                "name": "rspec"
+                            },
+                            {
+                                "name": "cucumber"
+                            },
+                            {
+                                "name": "capybara"
+                            }
+                        ]
                     },
                     {
-                        "library": {
-                            "name": "state_machine"
-                        }
+                        "name": "Persistence",
+                        "libraries": [
+                            {
+                                "name": "active_record"
+                            },
+                            {
+                                "name": "sequel"
+                            },
+                            {
+                                "name": "mysql, mysql2"
+                            },
+                            {
+                                "name": "couchrest_model"
+                            },
+                            {
+                                "name": "couchrest"
+                            }
+                        ]
                     },
                     {
-                        "library": {
-                            "name": "devise"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "haml"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "sass"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "active_scaffold"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "rake"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "mysql, mysql2"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "mustache"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "will_paginate"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "rabl"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "barista"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "workflow"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "cancan"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "acts_as_audited"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "rest-client"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "couchrest_model"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "sequel"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "json"
-                        }
+                        "name": "Miscellaneous",
+                        "libraries": [
+                            {
+                                "name": "active_record"
+                            },
+                            {
+                                "name": "state_machine"
+                            },
+                            {
+                                "name": "devise"
+                            },
+                            {
+                                "name": "haml"
+                            },
+                            {
+                                "name": "sass"
+                            },
+                            {
+                                "name": "active_scaffold"
+                            },
+                            {
+                                "name": "rake"
+                            },
+                            {
+                                "name": "mustache"
+                            },
+                            {
+                                "name": "will_paginate"
+                            },
+                            {
+                                "name": "rabl"
+                            },
+                            {
+                                "name": "workflow"
+                            },
+                            {
+                                "name": "cancan"
+                            },
+                            {
+                                "name": "audited"
+                            },
+                            {
+                                "name": "rest-client"
+                            }
+                        ]
                     }
                 ]
             }
@@ -119,50 +107,53 @@
         {
             "language": {
                 "name": "JavaScript",
-                "frameworks": [
-                    {
-                        "framework": {
-                            "name": "Ember.js (Sproutcore 2.0)",
-                            "versions": ""
+                "categories": [
+                  {
+                    "name": "Frameworks",
+                    "libraries": [
+                        {
+                                "name": "Ember.js",
+                                "versions": ""
+                        },
+                        {
+                                "name": "Backbone.js"
+                        },
+                        {
+                                "name": "Angular.js"
                         }
-                    },
-                    {
-                        "framework": {
-                            "name": "Backbone.js"
+                    ]
+                  },
+                  {
+                    "name": "Testing",
+                    "libraries": [
+                      {
+                        "name": "Jasmine"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Libraries",
+                    "libraries": [
+                        {
+                                "name": "jQuery"
+                        },
+                        {
+                                "name": "Underscore.js"
+                        },
+                        {
+                                "name": "mustache.js"
+                        },
+                        {
+                                "name": "sugar.js"
+                        },
+                        {
+                                "name": "Chosen"
+                        },
+                        {
+                                "name": "jQuery UI"
                         }
-                    }
-                ],
-                "libraries": [
-                    {
-                        "library": {
-                            "name": "jQuery"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "Underscore.js"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "mustache.js"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "sugar.js"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "Chosen"
-                        }
-                    },
-                    {
-                        "library": {
-                            "name": "jQuery UI"
-                        }
-                    }
+                    ]
+                  }
                 ]
             }
         },

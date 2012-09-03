@@ -2,6 +2,14 @@
   <li class="language">
     {{#language}}
       <h4>{{name}}</h4>
+      {{#categories}}
+        <h5>{{name}}</h5>
+        <ul class="libraries">
+        {{#libraries}}
+          <li class="library">{{name}}</li>
+        {{/libraries}}
+        </ul>
+      {{/categories}}
       {{#hasFrameworks}}
         <h5>Frameworks</h5>
         <ul class="frameworks">
