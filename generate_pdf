@@ -1,0 +1,1 @@
+wkhtmltopdf -T 10mm -R 0 -B 10mm -L 0 --print-media-type --no-background --title "Patrick G. Klingemann - Resume" http://localhost:4567/ resume.pdf
