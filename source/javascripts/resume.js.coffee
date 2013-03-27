@@ -1,6 +1,8 @@
 $(document).ready ->
   $.getJSON 'experience.json', (data) ->
-    $('#experience').html( Mustache.to_html($('#experience_template').html(), data) )
+    template = $('#experience_template').html()
+    html = Mustache.to_html(template, data)
+    $('#experience').html( html )
 
   $.getJSON 'languages.json', (data) ->
     data.hasLibraries = ->
@@ -9,3 +11,8 @@ $(document).ready ->
       if @frameworks then _.size(@frameworks) else false
 
     $('#languages').html( Mustache.to_html($('#languages_template').html(), data) )
+
+  $.getJSON 'links.json', (data) ->
+    template = $('#links_template').html()
+    html = Mustache.to_html(template, data)
+    $('#links .links').html( html )
