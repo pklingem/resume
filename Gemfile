@@ -1,4 +1,5 @@
 source "http://rubygems.org"
 
-gem 'rb-inotify'
+gem 'ruby_parser'
+gem 'hpricot'
 gem 'middleman'
