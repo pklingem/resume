@@ -12,3 +12,19 @@
 ## Generate your static resume
 
 middleman build
+
+## Deployment
+
+1.  create a repo called githubusername.github.com
+2.  middleman build
+3.  cp -R build /path/to/githubusername.github.com
+4.  create JSON files in the root of the githubusername.github.com repo
+
+## JSON Files
+
+*  head
+*  header
+*  education
+*  experience
+*  languages
+*  links
