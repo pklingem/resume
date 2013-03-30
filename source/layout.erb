@@ -1,15 +1,5 @@
 <html>
   <head>
-
-    <meta charset="utf-8">
-
-    <title>Patrick G. Klingemann - Resume</title>
-    <meta name="description" content="Resume">
-    <meta name="author" content="Patrick Klingemann">
-
-    <link href="stylesheets/resume.css" rel="stylesheet" type="text/css" media="screen, print">
-    <link href="stylesheets/print.css" rel="stylesheet" type="text/css" media="print">
-
   </head>
   <body>
 
@@ -19,9 +9,15 @@
       </div>
     </div>
 
+    <link href="stylesheets/resume.css" rel="stylesheet" type="text/css" media="screen, print">
+    <link href="stylesheets/print.css" rel="stylesheet" type="text/css" media="print">
+
     <script src="javascripts/libraries/jquery-1.7.2.min.js"></script>
     <script src="javascripts/libraries/mustache.min.js"></script>
     <script src="javascripts/libraries/underscore-min.js"></script>
+    <script id="head_template" type="text/html">
+      <%= partial 'head' %>
+    </script>
     <script id="header_template" type="text/html">
       <%= partial 'header' %>
     </script>
