@@ -1,32 +1,8 @@
-<header>
-</header>
+<% content_for :head do %>
+<% end %>
 
-<section id="links">
-  <ul class="links">
-  </ul>
-</section>
+<%= partial 'content' %>
 
-<section id="education">
-  <ul class="education">
-  </ul>
-</section>
-
-<section>
-  <h3>Software Development Experience</h3>
-
-  <ul id="experience">
-  </ul>
-</section>
-
-<section>
-  <h3>Programming Languages</h3>
-
-  <ul id="languages">
-  </ul>
-</section>
-
-<div class="clear"></div>
-
-<footer>
-
-</footer>
+<% content_for :eobody do %>
+  <%= partial 'eobody' %>
+<% end %>

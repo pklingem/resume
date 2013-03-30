@@ -1,0 +1,29 @@
+<% url_root = '/resume/' %>
+
+<link href="<%= url_root %>stylesheets/resume.css" rel="stylesheet" type="text/css" media="screen, print">
+<link href="<%= url_root %>stylesheets/print.css" rel="stylesheet" type="text/css" media="print">
+
+<script src="<%= url_root %>javascripts/libraries/jquery-1.7.2.min.js"></script>
+<script src="<%= url_root %>javascripts/libraries/mustache.min.js"></script>
+<script src="<%= url_root %>javascripts/libraries/underscore-min.js"></script>
+
+<script id="head_template" type="text/html">
+  <%= partial 'head' %>
+</script>
+<script id="header_template" type="text/html">
+  <%= partial 'header' %>
+</script>
+<script id="education_template" type="text/html">
+  <%= partial 'education' %>
+</script>
+<script id="experience_template" type="text/html">
+  <%= partial 'experience' %>
+</script>
+<script id="languages_template" type="text/html">
+  <%= partial 'languages' %>
+</script>
+<script id="links_template" type="text/html">
+  <%= partial 'links' %>
+</script>
+
+<script src="<%= url_root %>javascripts/resume.js"></script>
