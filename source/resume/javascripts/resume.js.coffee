@@ -1,26 +1,26 @@
 $(document).ready ->
 
-  $.getJSON '../data/resume/head.json', (data) ->
+  $.getJSON '../resume/data/head.json', (data) ->
     template = $('#head_template').html()
     html = Mustache.to_html(template, data)
     $('head').html( html )
 
-  $.getJSON '../data/resume/header.json', (data) ->
+  $.getJSON '../resume/data/header.json', (data) ->
     template = $('#header_template').html()
     html = Mustache.to_html(template, data)
     $('header').html( html )
 
-  $.getJSON '../data/resume/education.json', (data) ->
+  $.getJSON '../resume/data/education.json', (data) ->
     template = $('#education_template').html()
     html = Mustache.to_html(template, data)
     $('#education .education').html( html )
 
-  $.getJSON '../data/resume/experience.json', (data) ->
+  $.getJSON '../resume/data/experience.json', (data) ->
     template = $('#experience_template').html()
     html = Mustache.to_html(template, data)
     $('#experience').html( html )
 
-  $.getJSON '../data/resume/languages.json', (data) ->
+  $.getJSON '../resume/data/languages.json', (data) ->
     data = _(data).extend
       hasLibraries: ->
         if @libraries then _.size(@libraries) else false
@@ -30,7 +30,7 @@ $(document).ready ->
     html = Mustache.to_html(template, data)
     $('#languages').html( html )
 
-  $.getJSON '../data/resume/links.json', (data) ->
+  $.getJSON '../resume/data/links.json', (data) ->
     template = $('#links_template').html()
     html = Mustache.to_html(template, data)
     $('#links .links').html( html )
