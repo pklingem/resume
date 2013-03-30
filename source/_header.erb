@@ -1,0 +1,16 @@
+{{#header}}
+  <h1 id="name" class="align-center">{{name}}</h1>
+  <div class="align-center">
+    {{#address}}
+      <address id="{{type}}_address">
+        {{street}}
+        <br />
+        {{city}}, {{state}} {{zip_code}}
+      </address>
+    {{/address}}
+
+    {{phone_type}}: {{phone_number}}
+    <br />
+    <a href="mailto:{{email_address}}">{{email_address}}</a>
+  </div>
+{{/header}}

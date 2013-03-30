@@ -1,5 +1,10 @@
 $(document).ready ->
 
+  $.getJSON 'header.json', (data) ->
+    template = $('#header_template').html()
+    html = Mustache.to_html(template, data)
+    $('header').html( html )
+
   $.getJSON 'education.json', (data) ->
     template = $('#education_template').html()
     html = Mustache.to_html(template, data)
