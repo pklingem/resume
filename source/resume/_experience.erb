@@ -2,18 +2,19 @@
   {{#experience_unit}}
   <li class="experience-unit">
     <div class="heading">
-      <div class="left">
+      <div class="employer">
         <div class="employer">{{employer}}</div>
         <div class="division">{{division}}</div>
         <div class="location">{{location}}</div>
       </div>
 
-      <div class="right">
+      <div class="employment">
+        <div class="title">{{title}}</div>
         <span class="start-month">{{start_month}}</span>
         -
         <span class="end-month">{{end_month}}</span>
-        <div class="title">{{title}}</div>
       </div>
+    <div class="clear"></div>
     </div>
 
     <br />
@@ -24,16 +25,15 @@
         {{#project}}
           <li class="project">
             <div class="heading">
-              <div class="title-description-container left">
+              <div class="project-heading">
                 <strong class="title">{{title}}</strong>
-                -
                 <span class="description">{{{description}}}</span>
               </div>
-              <div class="right">
+              <div class="assignment-details">
+                <div class="role">{{role}}</div>
                 <span class="start-month">{{start_month}}</span>
                 -
                 <span class="end-month">{{end_month}}</span>
-                <div>{{role}}</div>
               </div>
               <div class="clear"></div>
             </div>

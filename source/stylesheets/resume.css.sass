@@ -30,6 +30,7 @@ ul
 
 a
   text-decoration: none
+  color: slategrey
 a:hover
   text-decoration: underline
 
@@ -43,7 +44,7 @@ body
   font-family: 'Average', serif
 
 #container
-  max-width: 960px
+  max-width: 900px
   min-width: 220px
   margin: 1em auto
   border: 1px solid #ccc
@@ -73,27 +74,37 @@ ul.education
 ul#experience
   padding: 0
   li.experience-unit
+    .heading
+      .employer
+        float: left
+      .employment
+        float: right
+      background-color: #F9F9F9
+      padding: 4px 8px 4px 8px
     list-style-type: none
     h4
       margin: 0
-    ul.highlights li
-      list-style-type: disc
+    ul.highlights
+      li
+        list-style-type: disc
 
 ul.projects
-  padding: 0 0 0 1em
+  padding: 0
   li.project
+    .heading
+      background-color: #FBFBFB
+      padding: 4px 8px 4px 8px
+      .title
+        margin-right: 0.5em
     list-style-type: none
     .heading
-      .title-description-container
-        margin-top: 1.25em
+      .project-heading
+      .assignment-details
     ul.highlights
-      max-width: 600px
 
 div.heading
   .left
-    width: 70%
   .right
-    width: 30%
     text-align: right
 
 ul#languages
